@@ -1,0 +1,33 @@
+#header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+
+
+
+label {
+    font-size: 20px;
+}
+
+#show {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#TVSearch {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+
+#gifArea {
+    clear: both;
+    display: inline;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AJAX Giphy Button</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron" id="header">
+
+        <h1>TV Shows</h1>
+        <h4>Click the buttons to display GIFS of your favorite TV shows<br>Click the GIFs to pause and play<br>Search to add more buttons!</h4>
+    </div>
+
+    <form class="form-inline" id="TVSearch">
+        <div class="form-group">
+            <label for="netflixInput">Search for a TV Show</label>
+            <input type="text" id="TVInput">
+        </div>
+        <!-- Button triggers show to be added -->
+        <input id="addShow" type="submit" value="submit">
+    </form>
+
+    <div class="row">
+        <div class="container">
+            <div class="btn-group-inline-pull-left">
+                <button class="btn btn-primary" id="show" data-search="Mr. Robot">Mr. Robot</button>
+                <button class="btn btn-primary" id="show" data-search="The Americans">The Americans</button>
+                <button class="btn btn-primary" id="show" data-search="Bojack Horseman">Bojack Horseman</button>
+                <button class="btn btn-primary" id="show" data-search="Game of Thrones">Game of Thrones</button>
+
+                <div id="myButtons"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="container">
+            <span><div id="gifArea"></div></span>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
